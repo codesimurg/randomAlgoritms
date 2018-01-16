@@ -1,3 +1,12 @@
 //to find the maximum value in a javascript array
-var findMax = function(array){var b=0; for (var i=0; i<array.length; i++){if (array[i] > b){b = array[i];}}; return b;}
-//it takes every value of the array and compares it with the value of b. if b is smaller than the value of array it assigns the value to b and returns the largest value
+var findMax = function(array){
+                                var b=0; 
+                                for (var i=0; i<array.length; i++){
+                                    if (array[i] > b){
+                                        b = array[i];
+                                       }
+                                      } 
+                                 return b;
+                                }
+//it takes every value of the array and compares it with the value of b. 
+//if b is smaller than the value of array it assigns the value to b and returns the largest value
